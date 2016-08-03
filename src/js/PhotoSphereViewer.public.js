@@ -309,6 +309,10 @@ PhotoSphereViewer.prototype.startGyroscopeControl = function() {
     console.warn('PhotoSphereViewer: gyroscope disabled');
     return;
   }
+  if (!self.doControls) {
+    console.warn('PhotoSphereViewer: gyroscope not supported');
+    return;
+  }
 
   this.stopAll();
 
