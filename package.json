@@ -17,7 +17,7 @@
   "homepage": "http://mistic100.github.io/Photo-Sphere-Viewer",
   "dependencies": {
     "d.js": "^0.7.3",
-    "dot": "^1.0.0",
+    "dot": "github:scann3d/doT#master",
     "three": "^0.70.0",
     "uevent": "^1.0.0"
   },
